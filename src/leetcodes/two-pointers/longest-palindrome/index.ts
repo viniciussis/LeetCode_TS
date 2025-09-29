@@ -1,4 +1,4 @@
-import { isPalindrome } from "../../utils";
+import { isPalindrome } from "../../../utils";
 
 export function bruteForcelongestPalindrome(s: string): string {
     if (s.length === 1) return s;
